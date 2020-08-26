@@ -1,0 +1,10 @@
+---
+applications:
+- name: kimilguk-egovadmin
+  memory: 512M
+  host: kimilguk-egovadmin
+  domain: paas-ta.org
+  services:
+  - kimilguk-egov-db
+  instances: 1
+  disk_quota: 512M
